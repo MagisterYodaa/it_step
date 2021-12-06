@@ -20,7 +20,10 @@ void div(double x, double y, double res) {
 	std::cout << res << std::endl;
 }
 
-int main(double x, double y, double otv) {
+int main() {
+	double x;
+	double y;
+	double otv{ 0 };
 	std::cout << "Vvedite chisla" << std::endl;
 	
 	std::string fun;
