@@ -1,3 +1,5 @@
+#include "getdata.h"
+
 int getdata(double tempreture = 0) {
     srand(time(NULL));
     tempreture = rand() % 101;
