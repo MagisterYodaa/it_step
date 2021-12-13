@@ -2,4 +2,4 @@
 #include <iostream>
 
 
-int getdata(int tempreture = 0);
+int getdata(double tempreture = 0);
