@@ -1,5 +1,6 @@
+#pragma once
 #include <cstdlib>
 #include <iostream>
 
 
-int getdata(double tempreture = 0);
+double getdata(double tempreture = 0);
