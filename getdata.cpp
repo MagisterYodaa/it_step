@@ -1,6 +1,6 @@
 #include "getdata.h"
 
-int getdata(double tempreture = 0) {
+double getdata(double tempreture) {
     srand(time(NULL));
     tempreture = rand() % 101;
     for (int i = 0; i < 4; i++) {
